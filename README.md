@@ -17,5 +17,7 @@ Copy the website-directory or file to the docker container:
 Then copy the directory/file to the container:
 
 `WEBSITE=index.html`
+
 `CONTAINERNAME=nginx_nginx_1`
+
 `docker cp $WEBSITE $CONTAINERNAME:/usr/share/nginx/html`
